@@ -24,7 +24,7 @@ public class TwoStacksOneArr {
 	{
 		if(top1<top2-1)
 		{
-			arr[++top2] = x;
+			arr[--top2] = x;
 		}
 	}
 	
